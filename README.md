@@ -1,15 +1,15 @@
-# Repositório de aulas ao vivo para estudantes da Turma 22 - Tribo A
+# Aula-BE6.1---ORM---Interface-da-aplica--o-com-o-banco-de-dados
 
-Este repositório armazena os códigos e scripts fornecidos durante as aulas ao vivo pelos especialistas da Trybe.
+O mapeamento objeto-relacional(ORM) provê uma maneira de alterar e interagir com um banco de dados por meio de código JavaScript. 
+A partir dele, é possível criar e alterar tabelas, realizar consultas, inserir e extrair dados do banco, 
+tudo isso apenas escrevendo código JavaScript.
 
-## Começando
+com esse conhecimento seu código será menos propenso a erros! Sabe por quê? 🤔
 
-Basta clonar o repositório
+➡️ As bibliotecas que trabalham com ORM, como o Sequelize, que mencionaremos aqui, abstraem as funções do banco de dados. 
+Isso significa que essas bibliotecas ocultam parte da complexidade dessas funções e as envelopam numa função de uso mais ágil e intuitivo.
+É esse processo que facilita o seu trabalho como pessoa desenvolvedora, pois otimiza a manutenção do código e o deixa menos suscetível a 
+erros.
 
-```sh
-git clone git@github.com:tryber/sd-022-a-live-lectures.git
-```
-
-### Estrutura
-
-Todos os conteúdos dados em aulas estarão no seu respectivo Pull Request!
+➡️ Então, o principal objetivo aqui é escrevermos um código simplificado, em que deixamos para o ORM a responsabilidade de integração 
+com o banco de dados.
