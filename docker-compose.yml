@@ -6,7 +6,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=password
     ports:
-      - 3306:3306
+      - 3307:3307
   api:
     container_name: api
     image: node:16
