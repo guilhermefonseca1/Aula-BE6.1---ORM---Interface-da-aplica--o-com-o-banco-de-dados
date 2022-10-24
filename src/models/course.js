@@ -5,6 +5,8 @@ module.exports = (sequelize, DataTypes) => {
       creation_date: DataTypes.DATE,
     }, {
       underscored: true,
+      //underscored: true TRANSFORMA CAMEL CASE EM SNACK CASE. SEM ELE, O ARQUIVO
+      //NÃO CONSEGUE ACESSAR O BANCO DE DADOS
     });
   
     return Course;
